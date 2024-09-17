@@ -2,7 +2,7 @@ import requests
 import re
 import os
 from tqdm import tqdm
-from audio_downloader import downloadAudio
+from utils.audio_downloader import downloadAudio
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
